@@ -20,4 +20,7 @@ module.exports = {
     "class-methods-use-this": "off",
     "import/extensions": "off",
   },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
 };

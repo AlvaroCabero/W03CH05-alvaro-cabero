@@ -1,12 +1,14 @@
-Component class{
+class Component {
   parentNode;
   element;
   tag;
   className;
-constructor (){
-  this.parentNode = parentNode;
-  this.element = element;
-this.container = document.createElement(tag);
+  constructor(parentNode, className, tag) {
+    this.parentNode = parentNode;
+    this.element = document.createElement(tag);
+    this.element.className = className;
+    parentNode.append(this.element);
+  }
 }
 
-}
+export default Component;
