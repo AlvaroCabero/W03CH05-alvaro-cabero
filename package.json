@@ -22,4 +22,13 @@
     "eslint-plugin-import": "^2.25.2",
     "jest": "^27.2.5"
   }
+  "babel": {
+        "env": {
+            "test": {
+                "plugins": [
+                    "@babel/plugin-transform-modules-commonjs"
+                ]
+            }
+        }
+    }
 }
