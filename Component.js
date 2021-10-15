@@ -3,10 +3,10 @@ Component class{
   element;
   tag;
   className;
-constructor (){
+constructor (parentNode){
   this.parentNode = parentNode;
-  this.element = element;
-this.container = document.createElement(tag);
+this.element = document.createElement(tag);
+this.className = containerClass;
 }
 
 }
